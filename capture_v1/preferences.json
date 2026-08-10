@@ -1,0 +1,11 @@
+{
+  "target_regions": ["地区A", "地区A", "地区A", "地区A", "地区A"],
+  "target_company_types": ["configured_company_type"],
+  "exclude_company_types": ["excluded_company_type"],
+  "target_role_domains": ["计算机", "后端", "Java", "数据", "算法", "AI", "平台研发"],
+  "notes": [
+    "按配置优先，按配置过滤。",
+    "地区偏好是地区A、地区A、地区A、地区A、地区A。",
+    "如后续加入外企，只能作为单独白名单，不作为默认范围。"
+  ]
+}
