@@ -1,0 +1,16 @@
+{
+  "company": "DemoCorp",
+  "job_name": "后端开发工程师",
+  "location": "地区B",
+  "batch": "校园招聘",
+  "source_type": "official_career_site",
+  "source_url": "https://example.com/campus",
+  "publish_date_or_first_seen_at": "2026-08-09",
+  "fit_score": 0.9,
+  "fit_reason": [
+    "岗位方向与 Java / 后端实习经历匹配",
+    "硕士 CS 背景匹配"
+  ],
+  "status": "needs_review",
+  "evidence_id": "evidence_demo_001"
+}
