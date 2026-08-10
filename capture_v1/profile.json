@@ -1,0 +1,71 @@
+{
+  "basic": {
+    "name": "示例候选人",
+    "gender": "示例性别",
+    "age": 0,
+    "ethnicity": "示例民族",
+    "height_cm": 0,
+    "weight_kg": 0,
+    "political_status": "示例政治面貌",
+    "hometown": "地区A",
+    "phone": "13800000000",
+    "email": "candidate@example.com"
+  },
+  "education": [
+    {
+      "school": "示例大学A",
+      "major": "计算机科学",
+      "degree": "硕士",
+      "start": "YYYY-MM",
+      "end": "YYYY-MM"
+    },
+    {
+      "school": "示例大学B",
+      "major": "示例专业",
+      "degree": "本科",
+      "start": "YYYY-MM",
+      "end": "YYYY-MM"
+    }
+  ],
+  "gpa": "GPA 示例",
+  "english": "英语能力示例",
+  "internships": [
+    {
+      "company": "示例公司",
+      "role": "AI开发",
+      "start": "YYYY-MM",
+      "end": "YYYY-MM"
+    },
+    {
+      "company": "示例公司",
+      "role": "后台开发",
+      "start": "YYYY-MM",
+      "end": "YYYY-MM"
+    },
+    {
+      "company": "示例公司",
+      "role": "后台开发",
+      "start": "YYYY-MM",
+      "end": "YYYY-MM"
+    }
+  ],
+  "research": [
+    "示例科研项目 A",
+    "示例科研项目 B"
+  ],
+  "skills": [
+    "Java",
+    "Python",
+    "Redis",
+    "RocketMQ",
+    "MySQL",
+    "深度学习",
+    "NLP",
+    "Transformer",
+    "Attention",
+    "LLM",
+    "MARL",
+    "RAG",
+    "AI Agent"
+  ]
+}
