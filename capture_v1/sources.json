@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "source_demo_campus",
+      "name": "DemoCorp 校园招聘官网",
+      "type": "official_career_site",
+      "priority": 1,
+      "url": "https://example.com/campus",
+      "status": "active"
+    },
+    {
+      "id": "source_wechat_recruiting",
+      "name": "微信公众号招聘线索",
+      "type": "wechat_public_account",
+      "priority": 2,
+      "url": "https://mp.weixin.qq.com/",
+      "status": "manual_review"
+    },
+    {
+      "id": "source_search_web",
+      "name": "搜索引擎线索",
+      "type": "search_engine",
+      "priority": 3,
+      "url": "https://www.google.com/search",
+      "status": "manual_review"
+    }
+  ]
+}
