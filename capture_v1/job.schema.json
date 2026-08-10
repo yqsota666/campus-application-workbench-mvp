@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JobCapture",
+  "type": "object",
+  "required": ["company", "job_name", "location", "batch", "source_type", "source_url", "status", "evidence_id"],
+  "properties": {
+    "company": { "type": "string" },
+    "job_name": { "type": "string" },
+    "location": { "type": "string" },
+    "batch": { "type": "string" },
+    "source_type": { "type": "string" },
+    "source_url": { "type": "string" },
+    "publish_date_or_first_seen_at": { "type": "string" },
+    "fit_score": { "type": "number" },
+    "fit_reason": { "type": "array", "items": { "type": "string" } },
+    "status": { "enum": ["new_job", "updated_job", "needs_review", "ignored", "ready_to_fill", "ready_to_submit"] },
+    "evidence_id": { "type": "string" }
+  }
+}
